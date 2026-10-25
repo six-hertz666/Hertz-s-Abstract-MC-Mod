@@ -1,33 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "hertzsabstract",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Hertzs' Abstract Mod",
+	"description": "Hertzs 的抽象模组：动作轮盘（吓唬 / 挥手 / 坐在地上 / 躺在地上）等趣味功能。",
 	"authors": [
-		"Me!"
+		"six-hertz666"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/six-hertz666/Hertz-s-Abstract-MC-Mod",
+		"sources": "https://github.com/six-hertz666/Hertz-s-Abstract-MC-Mod"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/hertzsabstract/icon.png",
+	"accessWidener": "hertzsabstract.accesswidener",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.hertzs.abstractmod.HertzsAbstractMod"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"com.hertzs.abstractmod.client.HertzsAbstractModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"hertzsabstract.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.5",

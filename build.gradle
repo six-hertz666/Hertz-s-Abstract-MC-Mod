@@ -14,8 +14,10 @@ repositories {
 loom {
 	splitEnvironmentSourceSets()
 
+	accessWidenerPath = file("src/main/resources/hertzsabstract.accesswidener")
+
 	mods {
-		"modid" {
+		"hertzsabstract" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

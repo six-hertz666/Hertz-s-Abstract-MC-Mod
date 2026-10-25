@@ -1,0 +1,3 @@
+accessWidener v2 named
+# 允许创建隐形 marker 盔甲架作为"坐姿"载具
+accessible method net/minecraft/world/entity/decoration/ArmorStand setMarker (Z)V
